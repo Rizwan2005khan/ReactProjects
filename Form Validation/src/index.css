@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+    background-image: linear-gradient(to right, #fff7c8 0%, #fa709a 100%);
+  }
+
+  .card {
+    background: #f3fffe;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50rem;
+    height: 30rem;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(255, 255, 223);
+  }
+
+  input {
+    padding: 10px 10px;
+    margin: 5px;
+    width: 20rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .submit-btn {
+    background: rgb(255, 90, 123);
+    color: #fff;
+  }
+  
